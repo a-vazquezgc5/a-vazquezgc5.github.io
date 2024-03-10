@@ -1,0 +1,136 @@
+body{
+    background-color: #000000;
+    font-family: 'Pathway Extreme', sans-serif;
+    margin: 20px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0.6em 10em;
+}
+header{
+    background-size: cover;
+    border-radius: 20px;
+    margin-bottom: 3em;
+    animation: fadeIn 1s;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2.6em;
+
+}
+nav ul li{
+    list-style-type: none;
+    margin: 0px 20px;
+}
+nav ul li a{
+    font-weight: 600;
+    text-decoration: none;
+    color: #F2F1EB;
+    font-size: 1.4em;
+    transition: 0.4s ease;
+    
+}
+nav ul li a:hover{
+    padding: 7px;
+    border-radius: 10px;
+    color: #F2F1EB;
+    font-weight: 900;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+main h1{
+    color: #F2F1EB;
+    font-size: 7em;
+    line-height: 1em;
+    font-weight: 900;
+
+}
+main h2{
+    font-size: 3em;
+    color: #F2F1EB;
+}
+
+main p{
+    color: #F2F1EB;
+
+}
+#logo{
+    
+    margin-left: 20px;
+    margin-top: 1em;
+    height: 5em;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3em;
+    padding: 3em;
+    background-color: #F2F1EB;
+    border-radius: 15px;
+    margin-bottom: 3em;
+}
+form input[type="text"]{
+    padding: 0;
+    font-size: 2em;
+    background-color: #F2F1EB;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-top: 10px;
+}
+form input[type="email"]{
+    padding: 0;
+    font-size: 2em;
+    background-color: #F2F1EB;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-top: 10px;
+}
+form input[type="submit"]{
+    padding: 0;
+    font-size: 2em;
+    background-color: #000000;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    color: #F2F1EB;
+    height: 3em;
+    font-weight: 900;
+}
+textarea{
+    height: 10em;
+    margin-top: 10px;
+    background-color: #F2F1EB;
+    border-radius: 10px;
+    font-size: 1.2em;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items:flex-start;
+    gap: 20px;
+    text-align: left;
+    height: 170px;
+    width: -webkit-fill-available;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 3em;
+}
+footer a{
+    font-size: 2em;
+    text-decoration: none;
+    color: #F2F1EB;
+}
+#worlwide{
+    height: 4em;
+}

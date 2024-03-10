@@ -1,0 +1,141 @@
+body{
+    background-color: #000000;
+    font-family: 'Pathway Extreme', sans-serif;
+    margin: 20px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0.6em 2em;
+}
+main h1{
+    color: #F2F1EB;
+    font-size: 3em;
+    font-weight: 700;
+}
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+    }
+header{
+    background-size: cover;
+    border-radius: 20px;
+    margin-bottom: 3em;
+    animation: fadeIn 1s;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2.6em;
+
+}
+nav ul li{
+    list-style-type: none;
+    margin: 0px 20px;
+}
+nav ul li a{
+    font-weight: 600;
+    text-decoration: none;
+    color: #F2F1EB;
+    font-size: 1.4em;
+    transition: 0.4s ease;
+    
+}
+nav ul li a:hover{
+    padding: 7px;
+    border-radius: 10px;
+    color: #F2F1EB;
+    font-weight: 900;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.video{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 30px;
+    background-image: url("/resources/img/ELCLASICO.png");
+    border-radius: 25px;
+    height: 40em;
+    margin-bottom: 3em;
+}
+.video button{
+    font-family: 'Pathway Extreme', sans-serif;
+    font-weight: 800;
+    font-size: 3.5em;
+    background-color: #40FF92;
+    padding: 20px 50px;
+    border-radius: 30px;
+    transition: 0.3s ease;
+}
+.video button:hover{
+    transform: scale(1.04);
+    transition: 0.3s ease;
+    filter: contrast(100%) brightness(105%);
+    box-shadow: 0px 0px 10px #40FF92;
+
+}
+.event-image{
+    height: 40em;
+    background-image: url("/resources/img/campnou.jpeg");
+    padding: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    border-radius: 20px;
+    margin-bottom: 2em;
+
+}
+#logo{
+    
+    margin-left: 20px;
+    margin-top: 1em;
+    height: 5em;
+}
+#worlwide{
+    height: 4em;
+}
+#play-icon{
+    height: 1em;
+    margin-top: 17px;
+}
+button{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.event-image h2{
+    color: #F2F1EB;
+    font-size: 3em;
+    text-shadow: 0px 0px 20px black;
+}
+hr{
+    width: 90%;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items:flex-start;
+    gap: 20px;
+    text-align: left;
+    height: 170px;
+    width: -webkit-fill-available;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 3em;
+}
+footer a{
+    font-size: 2em;
+    text-decoration: none;
+    color: #F2F1EB;
+}

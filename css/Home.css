@@ -1,0 +1,178 @@
+body{
+    background-color: #000000;
+    font-family: 'Pathway Extreme', sans-serif;
+    margin: 20px;
+}
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+    }
+header{
+    height: 40em;
+    background-image: url("/resources/img/ELCLASICO.png");
+    background-size: cover;
+    border-radius: 20px;
+    margin-bottom: 3em;
+    animation: fadeIn 1s;
+}
+#ver{
+    background-color: #000000;
+    padding: 10px 25px;
+    border-radius: 20px;
+    font-weight: 900;
+    justify-self: flex-end;
+    color: #F2F1EB;
+    text-decoration: none;
+    font-size: 2em;
+    margin-left: 20em;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2.6em;
+
+}
+nav ul li{
+    list-style-type: none;
+    margin: 0px 20px;
+}
+nav ul li a{
+    font-weight: 600;
+    text-decoration: none;
+    color: #F2F1EB;
+    font-size: 1.4em;
+    text-shadow: 0px 0px 20px black;
+    transition: 0.4s ease;
+    
+}
+nav ul li a:hover{
+    padding: 7px;
+    border-radius: 10px;
+    color: #F2F1EB;
+    font-weight: 900;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+#logo{
+    
+    margin-left: 20px;
+    margin-top: 1em;
+    height: 5em;
+}
+#VINI{
+    border-radius: 20px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0.6em 1.3em;
+    animation: fadeIn 3s;
+}
+main section{
+    transition: 0.3s ease;
+}
+main section:hover{
+    transform: scale(1.01);
+    transition: 0.3s ease;
+}
+.hero-layout{
+    height: 27em;
+    width: 100%;
+    background-image: url("/resources/img/LAMINE4.png");
+    border-radius: 30px;
+    background-size: cover;
+
+}
+.categorias-principales{
+    background-image: url("/resources/img/theboyfrombimingham.png");
+    background-position-y: -5em;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30em;
+    border-radius: 30px;
+    margin-top: 1.5em;
+}
+.categorias2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.destacado{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.4em;
+    padding-left: 20px;
+    height: 40em;
+    border-radius: 20px;
+    gap: 1.2em;
+    background-image: url("https://i.pinimg.com/originals/bd/ec/f5/bdecf521fc784641643ac18fc287e0fd.gif");
+    background-size: cover;
+    filter: saturate(140%);
+    margin-bottom: 3em;
+}
+.destacado h2{
+    font-weight: 900;
+    font-size: 14em;
+    color: #F2F1EB;
+}
+.formula1{
+    height: 40em;
+    background-image: url("/resources/img/formula.png");
+    background-size: cover;
+    margin-bottom: 9em;
+    border-radius: 20px;
+}
+.formula1 h2{
+    font-weight: 900;
+    font-size: 10em;
+    color: #F2F1EB;
+}
+#tenis{
+    filter: saturate(140%);
+    height: 22em;
+}
+#premium{
+    filter: grayscale(100%);
+    margin-top: -5em;
+    height: 37em;
+    transition: 0.5s ease;
+}
+#premium:hover{
+    cursor: pointer;
+    filter: grayscale(0%);
+    transition: 0.7s ease;
+    
+}
+hr{
+    width: 90%;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items:flex-start;
+    gap: 20px;
+    text-align: left;
+    height: 170px;
+    width: -webkit-fill-available;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 3em;
+}
+footer a{
+    font-size: 2em;
+    text-decoration: none;
+    color: #F2F1EB;
+}
+#worlwide{
+    height: 4em;
+}
