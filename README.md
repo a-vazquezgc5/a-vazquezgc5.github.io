@@ -1,3 +1,3 @@
-# **4ALL /Practica 8 DIW**
-# *André Vázquez García - Pablo Rivero Criado*
+# **4ALL WEB**
+# *André Vázquez García*
 <sub>Plataforma de streaming de contenido deportivo</sub>
